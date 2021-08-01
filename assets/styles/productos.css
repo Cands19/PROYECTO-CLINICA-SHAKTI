@@ -1,0 +1,500 @@
+body{
+  margin:0; 
+  padding:0;
+  background-image: url(../images/fotosclinica/fondos.jpg);
+  }
+
+/* titulo*/
+
+#images {
+  text-align: center;
+}
+
+.blanco-rojo {
+  color: #FFFFFF;
+  background-color: rgb(13, 47, 162);
+  font-size: 60px;
+}
+/* CONTESTEDORES DE IFNO*/
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 12px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:100px;
+  width: 470px;
+  height: 500px;
+  display: inline-block;
+}
+.card-image {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .date {
+  color: rgb(2, 2, 2);
+  font-size:13px;
+}
+.card-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 7, 110);
+  height: 188px;
+}
+.card-stats .stat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.card-stats .border {
+  border-left: 1px solid rgb(172, 26, 87);
+  border-right: 1px solid rgb(172, 26, 87);
+}
+.card-stats .value{
+  font-size:22px;
+  font-weight: 500;
+}
+.card-stats .value sup{
+  font-size:12px;
+}
+.card-stats .type{
+  font-size:11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.card-image.card2 {
+  background: url("img2.jpg");
+  background-size: cover;
+}
+.card-text.card2 .date {
+  color: rgb(255, 77, 7);
+}
+.card-stats.card2 .border {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+.card-stats.card2 {
+  background: rgb(255, 77, 7);
+}
+/*card3*/
+.card-image.card3 {
+  background: url("img3.jpg");
+  background-size: cover;
+}
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card3 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card3 {
+  background: rgb(0, 189, 63);
+}
+/* CONTESTEDORES DE IFNO 1 */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.card1 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 12px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:100px;
+  width: 470px;
+  height: 500px;
+  display: inline-block;
+}
+.card1-image1 {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card1-text1 {
+  grid-area: text;
+  margin: 25px;
+}
+.card1-tex1 .date1 {
+  color: rgb(7, 6, 6);
+  font-size:13px;
+}
+.card1-text1 p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card1-text1 h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.card1-stats1 {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(93, 140, 99);
+  height: 188px;
+}
+.card1-stats1 .stat1 {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.card1-stats1 .border1 {
+  border-left: 1px solid rgb(134, 130, 132);
+  border-right: 1px solid rgb(134, 130, 132);
+}
+.card1-stats1 .value1{
+  font-size:22px;
+  font-weight: 500;
+}
+.card1-stats1 .value1 sup{
+  font-size:12px;
+}
+.card1-stats1 .type1{
+  font-size:11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card1:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.card1-image1.card1 {
+  background: url("img2.jpg");
+  background-size: cover;
+}
+.card1-text1.card1 .date1 {
+  color: rgb(255, 77, 7);
+}
+.card1-stats1.card1 .border1 {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+.card1-stats1.card1 {
+  background: rgb(255, 77, 7);
+}
+/*card3*/
+.card1-image1.card1 {
+  background: url("img3.jpg");
+  background-size: cover;
+}
+.card1-text1.card1 .date1 {
+  color: rgb(0, 189, 63);
+}
+.card1-stats1.card1 .border1 {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card1-stat1.card1 {
+  background: rgb(0, 189, 63);
+}
+
+/* CONTESTEDORES DE IFNO 3 */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.card2 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 200px 80px;
+  grid-template-areas: "image" "text" "stats";
+
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 12px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:100px;
+  width: 470px;
+  height: 500px;
+  display: inline-block;
+}
+.card2-image2 {
+  grid-area: image;
+  background: url("img1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card2-text2 {
+  grid-area: text;
+  margin: 25px;
+}
+.card2-tex2 .date2 {
+  color: rgb(0, 0, 0);
+  font-size:13px;
+}
+.card2-text2 p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card2-text2 h2 {
+  margin-top:0px;
+  font-size:28px;
+}
+.card2-stats2 {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(53, 45, 121);
+  height: 188px;
+}
+.card2-stats2 .stat2 {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.card2-stats2 .border2 {
+  border-left: 1px solid rgb(55, 11, 82);
+  border-right: 1px solid rgb(71, 67, 73);
+}
+.card2-stats2 .value2{
+  font-size:22px;
+  font-weight: 500;
+}
+.card2-stats2 .value1 sup{
+  font-size:12px;
+}
+.card2-stats2 .type2{
+  font-size:11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card2:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.card2-image2.card2 {
+  background: url("img2.jpg");
+  background-size: cover;
+}
+.card2-text2.card2 .date2 {
+  color: rgb(255, 77, 7);
+}
+.card2-stats2.card2 .border2 {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+.card2-stats2.card2 {
+  background: rgb(255, 77, 7);
+}
+/*card3*/
+.card2-image2.card2 {
+  background: url("img3.jpg");
+  background-size: cover;
+}
+.card2-text2.card2 .date2 {
+  color: rgb(0, 189, 63);
+}
+.card2-stats2.card2 .border2 {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card2-stat2.card2 {
+  background: rgb(0, 189, 63);
+}
+
+/* CARRUSERL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/ 
+footer{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+width: 100%;
+height: 180px;
+background: #000000;
+color: white;
+}
+.container-footer-all{
+width: 100%;
+max-width: 3000px;
+}
+.container3-body{
+display: flex;
+justify-content: center;
+
+
+}
+.colum1{
+max-width: 1000px;
+
+}
+.colum1 h1{
+font-size: 22px;
+color: white;
+
+
+
+}
+.row{
+margin-top: 20px;
+display: flex;
+}
+.row img{
+width: 36px;
+height: 36px;
+
+}
+.row label{
+margin-top: 10px;
+margin-left: 20px;
+color: rgb(255, 245, 245);
+}
+
+.colum2{
+max-width: 1000px;
+
+}
+.colum2 h1{
+font-size: 22px;
+max-width: 800px;
+margin-left: 315px;
+color: rgb(255, 255, 255);
+
+
+}
+.colum2 p{
+font-size: 14px;
+color: rgb(139, 139, 139);
+margin-top: 20px;
+margin-left: 326px;
+
+}
+.colum3{
+max-width: 1000px;
+
+}
+.colum3 h1{
+font-size: 22px;
+color:white;
+padding-left: 150px;
+}
+.row2{
+margin-top: 20px;
+font-size: 15px;
+color: rgb(139, 139, 139);
+
+}
+.contenido{
+  
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+width: 100%;
+
+}

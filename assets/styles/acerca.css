@@ -1,0 +1,129 @@
+body{
+    margin:0; 
+    padding:0;
+    background-color: rgba(123, 97, 196, 0.453);
+    }
+
+
+  /* CONTENDEDORES INFO CLINICA*/
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  .izquierda{
+    width:1900px;
+    height: 880px;
+    padding:20px;
+    border:1px solid #000;
+    margin-left: 80px;
+    display:inline-block;
+    /*float:left;*/
+  }
+
+  .izquierda{
+    background-color:rgb(136, 127, 136);
+  }
+  div[class*="caja-"]{
+    width:800px;
+    height:500px;
+    border:3px solid rgb(0, 0, 0);
+    margin:76px;
+    background-color:#e0b7e0;
+    float:left;
+    /*display:inline-block;*/
+   
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+    font-size:18px;
+  }
+
+  .izquierda .caja-2{display:inline-block;
+  font-size: 35px;
+  padding: 30px;
+  text-align:justify;
+
+  }
+  .derecha .caja-2{visibility: hidden;
+  /*parte de mision*/
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  .izquierda{
+    width:1950px;
+    height: 680px;
+    padding:20px;
+    border:1px solid #000;
+    margin:50px 50px;
+    display:inline-block;
+    /*float:left;*/
+  }
+
+  .izquierda{
+    background-color:rgb(136, 127, 136);
+  }
+  div[class*="caja-"]{
+    width:800px;
+    height:500px;
+    border:3px solid rgb(0, 0, 0);
+    margin:76px;
+    background-color:#e0b7e0;
+    float:left;
+    /*display:inline-block;*/
+   
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+    font-size:18px;
+  }
+
+  .izquierda .caja-2{
+  font-size: 35px;
+  padding: 30px;
+  text-align:justify;
+
+  }
+  .derecha .caja-2{visibility: hidden;
+  
+  }
+  .parrafoinfo{
+    font-size: 20px;
+    font-style: normal;
+  }
+/*CONTENEDORES INFO CURRI DOC1*/
+.contenedor{
+  margin:auto;
+  width:590px;
+  padding:20px;
+  background:#5f9b9b;
+  border:10px solid rgb(6, 85, 68);
+  display: inline-block;
+  margin-left: 310px;
+  height: 900px;
+}
+.contenedor2{
+  margin:auto;
+  width:590px;
+  padding:20px;
+  background: #8e6ea3;
+  border:10px solid rgb(52, 15, 70);
+  display: inline-block;
+  margin-left: 250px;
+  height: 900px;
+}
+
+div.contendedor.img1{
+  float:left;
+  padding: 10px;
+} 
+
+.img2{
+  float:left;
+  padding: 20px;
+} 
+
+/* FOOTER */

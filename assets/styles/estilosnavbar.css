@@ -1,0 +1,73 @@
+nav{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    overflow:auto;
+    
+    }
+ul{
+   padding: 0;
+   margin: 0 0 0 30 px;
+   list-style: none;
+}
+li {
+    float:right;
+}
+.logo img{
+    position:absolute;
+    margin-top: 2px;
+    margin-left: 8px;
+    width: 3.cm;
+    height:1.3cm;
+}
+nav a {
+    width: 350px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #fffafa;
+    text-align: center;
+}
+nav a:hover {
+    background: rgb(2, 65, 61);
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+h1{
+    text-align-last: center;
+    color: rgb(15, 17, 13);
+    font-family:Verdana;
+
+}
+h1{
+  font-size:1.6cm;
+  color:#0e2a3d;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*BOTON DE WHATS*/
+.redes-flotantes {
+  position: fixed;
+  right: 8px;
+  top: 75%;
+  z-index: 20;
+  }
+  .redes-flotantes img {
+  float: right; clear: right;
+   margin: 5px;
+  -moz-transform: scale(.8) ;
+  -webkit-transform: scale(.8) ;
+  -o-transform: scale(.8) ;
+  -ms-transform: scale(.8) ;
+  transform: scale(.8) ;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  }
+  .redes-flotantes img:hover {
+  -moz-transform: scale(1.1) rotate(6deg);
+  -webkit-transform: scale(1.1) rotate(6deg);
+  -o-transform: scale(1.1) rotate(6deg);
+  -ms-transform: scale(1.1) rotate(6deg);
+  transform: scale(1.1) rotate(6deg);
+  }

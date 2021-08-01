@@ -1,0 +1,90 @@
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    height: 180px;
+    background: #000000;
+    color: white;
+  }
+  .container-footer-all{
+    width: 100%;
+    max-width: 3000px;
+  }
+  .container3-body{
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  .colum1{
+    max-width: 1000px;
+    
+  }
+  .colum1 h1{
+    font-size: 22px;
+    color: white;
+    
+    
+  
+  }
+  .row{
+  margin-top: 20px;
+  display: flex;
+  }
+  .row img{
+    width: 36px;
+    height: 36px;
+  
+  }
+  .row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(255, 245, 245);
+  }
+  
+  .colum2{
+    max-width: 1000px;
+  
+  }
+  .colum2 h1{
+    font-size: 22px;
+    max-width: 800px;
+    margin-left: 315px;
+    color: rgb(255, 255, 255);
+    
+  
+  }
+  .colum2 p{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    margin-top: 20px;
+    margin-left: 326px;
+  
+  }
+  .colum3{
+    max-width: 1000px;
+  
+  }
+  .colum3 h1{
+    font-size: 22px;
+    color:white;
+    padding-left: 150px;
+  }
+  .row2{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(139, 139, 139);
+  
+  }
+  .contenido{
+      
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    
+  }
