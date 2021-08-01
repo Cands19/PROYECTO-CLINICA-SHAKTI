@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="../../assets/styles/estilosfooter.css">
+<link rel="stylesheet" href="../assets/styles/estilosfooter.css">
 <footer>
 <div class="container-footer-all">
 <div class="container3-body">
